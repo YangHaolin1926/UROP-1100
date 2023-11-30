@@ -27,9 +27,11 @@ for file_name in file_names:
     book_info = {
         "meta": {
             "meta": {
-                "short_book_title": file_name,
-                "publication_date": 0,
-                "url": ""
+                "meta": {                 
+                    "short_book_title": file_name,
+                    "publication_date": 0,
+                    "url": ""
+                }
             }
         },
         "text": content
